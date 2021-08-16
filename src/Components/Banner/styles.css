@@ -1,24 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
 .banner{
     width: 100%;
-    height: 85vh;
+    height: 100vh;
     position: relative;
     overflow: hidden;
-    margin-top: 15vh;
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 0;
 }
-.banner .foto{
+.banner .carousel{
     width: 100%;
     height: 100%;
     position: absolute;
-    background-image: url('../../Assets/thumb1.jpg');
-    background-size: cover;
+    display: flex;
+}
+.banner .foto{
+    width: 100%;
+    height: fit-content;
+    position: relative;
     background-position: initial;
     background-repeat: no-repeat;
     filter: sepia(0.1) contrast(0.8) hue-rotate(3deg);
+    transform: translateY(calc(6rem - 1px));
 }
 .banner .head-line{
     width: 100%;
@@ -31,7 +35,6 @@
 }
 .banner h1{
     max-width: 60%;
-    margin-bottom: 1rem;
     font-size: 3em;
     font-weight: 800;
     font-family: 'Carter One', cursive;

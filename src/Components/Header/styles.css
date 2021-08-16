@@ -1,7 +1,7 @@
 .header{
     position: fixed;    
     width: 100%;
-    min-height: 15vh;
+    min-height: 6rem;
     top: 0;
     z-index: 1;
     background-color: rgb(26 26 27);
