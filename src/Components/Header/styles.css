@@ -4,7 +4,7 @@
     min-height: 15vh;
     top: 0;
     z-index: 1;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(26 26 27);
     color: white;
     display: flex;
     flex-direction: column;
@@ -13,14 +13,18 @@
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);    
 }
 .header_upper{
-    width: 80%;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 3rem;
     margin-top: 0.5rem;
 }
 .header_upper h1{
+    font-size: 1.5em;    
+    font-weight: 800;
+    font-family: myriad-pro, sans-serif;
+    font-style: normal;
     color: white;
 }
 .header_upper form{
@@ -29,7 +33,7 @@
     flex-direction: row-reverse;
 }
 .header_upper input{
-    width: 30vw;
+    width: 35vw;
     height: 5vh;
     padding: 0 4.5vw 0 1vw;
     border-radius: 2.5vh;
@@ -68,7 +72,6 @@
     border: 0;
 }
 .login button:hover{
-    cursor: pointer;
     background-color: rgb(50,50,50);
 }
 .login button img{
@@ -77,12 +80,6 @@
 }
 .login h3{
     font-weight: 400;
-}
-.header_upper h1{
-    font-size: 2em;
-    font-family: myriad-pro, sans-serif;
-    font-weight: 800;
-    font-style: normal;
 }
 .header nav{
     min-width: 90%;
