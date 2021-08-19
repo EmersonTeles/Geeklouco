@@ -1,12 +1,8 @@
 # GEEKLOUCO.COM
+
 #### Esse site, tem como objetivo apresentar os seus heróis favoritos no formato de um marketplace.
+
 live preview: https://geeklouco.vercel.app
-
-## CORS POLICY
-
-Para utilizar a aplicação é necessario que tenha o extensor de cors chamado "Moesif CORS" ou similar:
-https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc
-[![Moesif CORS](https://user-images.githubusercontent.com/62522817/89653164-867dd200-d8be-11ea-8c30-8188ea6513f9.png)](https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc)
 
 ## O SITE
 
@@ -14,7 +10,7 @@ https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojj
 
 #### A aplicação foi feita usando ReactJs, com auxilio do axios para realizar as requisições para a api de heróis https://www.superheroapi.com/api
 
-### OS CARDS 
+### OS CARDS
 
 ![Cards de heróis](https://uploaddeimagens.com.br/images/003/364/290/full/_-_3.png?1627961149)
 
@@ -29,9 +25,11 @@ Ao clicar no card qualquer herói, irá ser exibido na tela um popup na tela com
 ### Futuras features
 
 #### Barra de pesquisa:
+
 A barra de pesquisa irá servir para pesquisar algum herói especifico, que não conste na tela principal do site.
 
 #### Login:
+
 Ainda não existe uma pagina para ser feito o login, logo o botão redireciona para uma pagina empty surpresa.
 
 ## O codigo
